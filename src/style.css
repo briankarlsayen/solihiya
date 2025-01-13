@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"); */
+
+:root {
+  font-family: "Raleway", serif, Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: black;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: blue;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.lobster-font {
+  font-family: "Lobster", serif;
+}
+
+.dancing-script-font {
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+}
+
+.logo {
+  font-family: "Lobster", serif;
+  font-size: 2.5rem;
+}
+
+.brown-text {
+  color: #c4692d;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #c4692d;
+  margin: 1em 0;
+  padding: 0;
+}

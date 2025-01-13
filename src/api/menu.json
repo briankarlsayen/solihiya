@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "name": "Espresso Shot",
+    "price": 2.5,
+    "description": "A rich, bold shot of pure espresso with a robust flavor.",
+    "calories": 5,
+    "type": "coffee"
+  },
+  {
+    "id": 2,
+    "name": "Americano",
+    "price": 3.0,
+    "description": "Espresso diluted with hot water for a smooth and bold flavor.",
+    "calories": 10,
+    "type": "coffee"
+  },
+  {
+    "id": 3,
+    "name": "Cappuccino",
+    "price": 4.0,
+    "description": "Equal parts espresso, steamed milk, and foam for a velvety texture.",
+    "calories": 120,
+    "type": "coffee"
+  },
+  {
+    "id": 4,
+    "name": "Latte",
+    "price": 4.5,
+    "description": "A creamy blend of espresso and steamed milk, topped with light foam.",
+    "calories": 150,
+    "type": "coffee"
+  },
+  {
+    "id": 5,
+    "name": "Macchiato",
+    "price": 3.75,
+    "description": "A bold shot of espresso 'stained' with a dollop of frothy milk.",
+    "calories": 15,
+    "type": "coffee"
+  },
+  {
+    "id": 6,
+    "name": "Mocha Latte",
+    "price": 5.0,
+    "description": "Espresso combined with chocolate syrup, steamed milk, and whipped cream.",
+    "calories": 290,
+    "type": "coffee"
+  },
+  {
+    "id": 7,
+    "name": "Caramel Macchiato",
+    "price": 5.25,
+    "description": "A layered coffee drink with vanilla syrup, espresso, steamed milk, and caramel drizzle.",
+    "calories": 240,
+    "type": "coffee"
+  },
+  {
+    "id": 8,
+    "name": "Vanilla Latte",
+    "price": 5.0,
+    "description": "A smooth latte with a touch of sweet vanilla syrup.",
+    "calories": 200,
+    "type": "coffee"
+  },
+  {
+    "id": 9,
+    "name": "Hazelnut Cappuccino",
+    "price": 4.75,
+    "description": "A nutty twist on the classic cappuccino with hazelnut syrup.",
+    "calories": 160,
+    "type": "coffee"
+  },
+  {
+    "id": 10,
+    "name": "Flat White",
+    "price": 4.25,
+    "description": "A double shot of espresso with velvety steamed milk.",
+    "calories": 140,
+    "type": "coffee"
+  },
+  {
+    "id": 11,
+    "name": "Iced Coffee",
+    "price": 3.75,
+    "description": "Freshly brewed coffee served over ice for a crisp and refreshing drink.",
+    "calories": 5,
+    "type": "coffee"
+  },
+  {
+    "id": 12,
+    "name": "Cold Brew",
+    "price": 4.5,
+    "description": "Smooth and naturally sweet coffee, brewed cold for 12 hours.",
+    "calories": 10,
+    "type": "coffee"
+  },
+  {
+    "id": 13,
+    "name": "Iced Latte",
+    "price": 4.75,
+    "description": "Espresso with cold milk over ice for a refreshing treat.",
+    "calories": 110,
+    "type": "coffee"
+  },
+  {
+    "id": 14,
+    "name": "Iced Mocha",
+    "price": 5.5,
+    "description": "Espresso, chocolate syrup, cold milk, and ice topped with whipped cream.",
+    "calories": 300,
+    "type": "coffee"
+  },
+  {
+    "id": 15,
+    "name": "Iced Caramel Macchiato",
+    "price": 5.75,
+    "description": "A chilled version of the caramel macchiato with caramel drizzle.",
+    "calories": 250,
+    "type": "coffee"
+  },
+  {
+    "id": 16,
+    "name": "Pumpkin Spice Latte",
+    "price": 5.75,
+    "description": "A cozy blend of espresso, pumpkin spice, steamed milk, and whipped cream.",
+    "calories": 310,
+    "type": "coffee"
+  },
+  {
+    "id": 17,
+    "name": "Peppermint Mocha",
+    "price": 6.0,
+    "description": "Espresso with chocolate and peppermint syrups, steamed milk, and whipped cream.",
+    "calories": 320,
+    "type": "coffee"
+  },
+  {
+    "id": 18,
+    "name": "Cinnamon Dolce Latte",
+    "price": 5.5,
+    "description": "A sweet and spiced latte with cinnamon dolce syrup and whipped cream.",
+    "calories": 280,
+    "type": "coffee"
+  },
+  {
+    "id": 19,
+    "name": "Hot Chocolate",
+    "price": 4.0,
+    "description": "Creamy steamed milk blended with rich chocolate, topped with whipped cream.",
+    "calories": 350,
+    "type": "non-coffee"
+  },
+  {
+    "id": 20,
+    "name": "Chai Tea Latte",
+    "price": 5.25,
+    "description": "A spiced tea concentrate blended with steamed milk.",
+    "calories": 200,
+    "type": "tea"
+  },
+  {
+    "id": 21,
+    "name": "Matcha Latte",
+    "price": 5.5,
+    "description": "A creamy blend of matcha green tea and steamed milk, lightly sweetened.",
+    "calories": 210,
+    "type": "tea"
+  },
+  {
+    "id": 22,
+    "name": "Earl Grey Tea",
+    "price": 3.5,
+    "description": "A fragrant black tea infused with bergamot citrus for a classic flavor.",
+    "calories": 0,
+    "type": "tea"
+  },
+  {
+    "id": 23,
+    "name": "English Breakfast Tea",
+    "price": 3.5,
+    "description": "A robust blend of black tea, perfect for starting your day.",
+    "calories": 0,
+    "type": "tea"
+  },
+  {
+    "id": 24,
+    "name": "Mint Green Tea",
+    "price": 4.0,
+    "description": "A refreshing green tea with a burst of minty freshness.",
+    "calories": 0,
+    "type": "tea"
+  },
+  {
+    "id": 25,
+    "name": "Chamomile Tea",
+    "price": 4.0,
+    "description": "A calming herbal tea with floral and apple-like notes.",
+    "calories": 0,
+    "type": "tea"
+  },
+  {
+    "id": 26,
+    "name": "Lemonade",
+    "price": 3.75,
+    "description": "A zesty, refreshing blend of fresh lemon juice and sugar.",
+    "calories": 120,
+    "type": "non-coffee"
+  },
+  {
+    "id": 27,
+    "name": "Iced Tea",
+    "price": 3.75,
+    "description": "A chilled black tea with a hint of lemon, served over ice.",
+    "calories": 80,
+    "type": "tea"
+  },
+  {
+    "id": 28,
+    "name": "Hot Apple Cider",
+    "price": 4.5,
+    "description": "A warm, spiced apple cider perfect for cozy moments.",
+    "calories": 150,
+    "type": "non-coffee"
+  },
+  {
+    "id": 29,
+    "name": "Sparkling Water",
+    "price": 2.5,
+    "description": "Effervescent sparkling water for a refreshing sip.",
+    "calories": 0,
+    "type": "non-coffee"
+  },
+  {
+    "id": 30,
+    "name": "Fruit Smoothie",
+    "price": 5.5,
+    "description": "A blend of fresh fruits, yogurt, and juice for a healthy drink.",
+    "calories": 250,
+    "type": "non-coffee"
+  }
+]
