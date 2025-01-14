@@ -38,7 +38,7 @@ const goToMenu = () => {
 </script>
 <template>
   <div class="container">
-    <h2>Our best sellers</h2>
+    <h2 class="title">Our best sellers</h2>
     <ul class="menu-items">
       <li v-for="item in items" :key="item.id" class="menu-item">
         <div class="menu-img-container">
@@ -55,7 +55,9 @@ const goToMenu = () => {
         alt="menu-banner"
       />
       <div class="menu-banner-content">
-        <h2>Discover our delightful menu crafted just for you.</h2>
+        <h2 class="banner-text">
+          Discover our delightful menu crafted just for you.
+        </h2>
 
         <button class="menu-button" @click="goToMenu">
           <router-link to="/menu">Menu</router-link>
@@ -72,6 +74,12 @@ const goToMenu = () => {
   /* min-height: 1000px;
   height: 100%; */
 }
+
+.title {
+  padding: 0px;
+  margin: 0px;
+  line-height: 0px;
+}
 .menu-items {
   display: flex;
   gap: 3rem;
@@ -82,7 +90,9 @@ const goToMenu = () => {
   font-size: medium;
   font-weight: 400;
   text-align: center;
+  line-height: 0px;
 }
+
 .menu-img-container {
   height: 220px;
   width: 100%;
@@ -146,5 +156,9 @@ const goToMenu = () => {
 .menu-button:hover {
   background-color: #b5b5b5; /* Change background color on hover */
   transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+.banner-text {
+  line-height: 28px;
 }
 </style>

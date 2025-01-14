@@ -38,7 +38,6 @@ defineProps<{}>();
   width: 220px;
   display: flex;
   border-radius: 100%;
-  padding: 2rem;
 }
 
 .barista-img {

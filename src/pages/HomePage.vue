@@ -10,8 +10,9 @@ defineProps<{}>();
     <div class="hero-img-container">
       <img class="hero-img" src="../assets/coffee-hero.jpg" alt="Banner" />
       <div class="hero-content dancing-script-font">
-        <p class="tagline">"Waves of flavor,</p>
-        <p class="tagline">cups of comfort."</p>
+        <p class="tagline">"Waves of flavor, cups of comfort"</p>
+        <!-- <p class="tagline">"Waves of flavor,</p>
+        <p class="tagline">cups of comfort."</p> -->
       </div>
     </div>
     <section id="about" class="about-container">
@@ -39,7 +40,7 @@ defineProps<{}>();
 }
 
 .hero-img-container {
-  height: 900px;
+  height: 650px;
   width: 100%;
   display: flex;
   position: relative;
@@ -54,13 +55,14 @@ defineProps<{}>();
   border-radius: 8px;
   color: white;
   text-transform: uppercase;
-  font-size: 3.4rem;
+  font-size: 2.4rem;
   letter-spacing: 1.4px;
   color: white;
   padding: 0;
   margin: 0;
   font-weight: 800;
   font-style: italic;
+
   line-height: 54px;
 }
 
@@ -83,7 +85,7 @@ defineProps<{}>();
   width: 100%;
   max-width: 1200px;
   background-color: white;
-  padding: 1rem;
+  padding: 2.5rem;
   box-shadow: 0 0 22px 0 rgba(0, 0, 0, 0.08);
   margin-top: -2rem;
   z-index: 99;
@@ -91,8 +93,8 @@ defineProps<{}>();
 
 .tagline {
   opacity: 0;
-  transform: translateY(20px); /* Slightly slide up */
-  animation: fadeIn 1.5s ease-out forwards; /* Play animation */
+  transform: translateY(30px); /* Slightly slide up */
+  animation: fadeIn 2.1s ease-out forwards; /* Play animation */
 }
 
 @keyframes fadeIn {
