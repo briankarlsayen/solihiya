@@ -50,4 +50,14 @@ defineProps<{}>();
 .about-desc {
   flex-basis: 66%;
 }
+
+@media (max-width: 550px) {
+  .container {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .barista-container {
+    display: none;
+  }
+}
 </style>

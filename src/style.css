@@ -62,3 +62,23 @@ hr {
   margin: 1em 0;
   padding: 0;
 }
+
+@media (max-width: 550px) {
+  .logo {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+  li {
+    font-size: 0.8rem;
+  }
+
+  h1 {
+    font-size: 1.65rem;
+  }
+  h2 {
+    font-size: 1.35rem;
+  }
+}

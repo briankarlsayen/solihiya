@@ -31,10 +31,6 @@ const items = [
     alt: "mocha img",
   },
 ];
-
-const goToMenu = () => {
-  console.log("click");
-};
 </script>
 <template>
   <div class="container">
@@ -59,7 +55,7 @@ const goToMenu = () => {
           Discover our delightful menu crafted just for you.
         </h2>
 
-        <button class="menu-button" @click="goToMenu">
+        <button class="menu-button">
           <router-link to="/menu">Menu</router-link>
         </button>
       </div>
@@ -160,5 +156,29 @@ const goToMenu = () => {
 
 .banner-text {
   line-height: 28px;
+}
+
+@media (max-width: 550px) {
+  .menu-items {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    gap: 0px;
+    padding-bottom: 5rem;
+  }
+  .menu-img-container {
+    height: 150px;
+  }
+
+  .container {
+    padding-top: 1.5rem;
+  }
+
+  .menu-button {
+    padding: 0.7rem;
+    font-size: 0.8rem;
+  }
 }
 </style>

@@ -102,4 +102,14 @@ ul {
   list-style-type: none;
   max-width: 500px;
 }
+
+@media (max-width: 550px) {
+  .menu-type-container {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .menu-items {
+    padding: 0px;
+  }
+}
 </style>

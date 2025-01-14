@@ -10,7 +10,7 @@ defineProps<{}>();
     <div class="hero-img-container">
       <img class="hero-img" src="../assets/coffee-hero.jpg" alt="Banner" />
       <div class="hero-content dancing-script-font">
-        <p class="tagline">"Waves of flavor, cups of comfort"</p>
+        <h3 class="tagline">"Waves of flavor, cups of comfort"</h3>
         <!-- <p class="tagline">"Waves of flavor,</p>
         <p class="tagline">cups of comfort."</p> -->
       </div>
@@ -105,6 +105,12 @@ defineProps<{}>();
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@media (max-width: 550px) {
+  .about {
+    padding: 0px;
   }
 }
 </style>
