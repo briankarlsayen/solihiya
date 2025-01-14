@@ -9,7 +9,6 @@ export default {
     const mapToken = import.meta.env.VITE_MAP_TOKEN;
 
     mapboxgl.accessToken = mapToken;
-    // "pk.eyJ1IjoiYmx1M2ZpcmU4OSIsImEiOiJjbGxuNnBubW4yNjV5M2p0NmZ2NjVoY3dsIn0.Td9R7r1vfx0f_eKR1_vfIQ";
     // Initialize the map
     const map = new mapboxgl.Map({
       container: "map", // ID of the HTML element to contain the map
