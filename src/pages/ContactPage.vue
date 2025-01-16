@@ -57,6 +57,6 @@ import MapView from "../components/MapView.vue";
 }
 
 p {
-  line-height: 10px;
+  line-height: 14px;
 }
 </style>
