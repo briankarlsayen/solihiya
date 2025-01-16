@@ -183,7 +183,7 @@ const items = [
     padding-bottom: 5rem;
   }
   .menu-img-container {
-    height: 150px;
+    height: 200px;
   }
 
   .container {
