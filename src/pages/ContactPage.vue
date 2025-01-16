@@ -9,9 +9,14 @@ import MapView from "../components/MapView.vue";
     <div id="layout">
       <MapView />
     </div>
+
     <h5 class="subscript">See the map for the store's location.</h5>
+
     <div>
       <h3>Got any suggestion/questions?</h3>
+      <p>
+        Address: Zambales - Pangasinan Rd, Iba, Zambales, Viction beach resort
+      </p>
       <p>Email: silohiya@gmail.com</p>
       <p>Phone: 09876543210</p>
     </div>
@@ -29,6 +34,7 @@ import MapView from "../components/MapView.vue";
 <style scoped>
 .container {
   text-align: center;
+  padding-bottom: 1rem;
 }
 .section-title {
   text-transform: uppercase;
@@ -46,6 +52,8 @@ import MapView from "../components/MapView.vue";
 }
 .hour-opts {
   list-style: none;
+  padding: 0px;
+  margin: 0px;
 }
 
 p {

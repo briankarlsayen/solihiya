@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage.vue";
 import { createRouter, createWebHistory } from "vue-router";
 import MenuPage from "./pages/MenuPage.vue";
 import ContactPage from "./pages/ContactPage.vue";
+import naive from "naive-ui";
 
 const routes = [
   { path: "/", component: HomePage },
@@ -27,5 +28,6 @@ const router = createRouter({
 });
 
 const app = createApp(App);
+app.use(naive);
 app.use(router);
 app.mount("#app");

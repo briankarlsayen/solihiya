@@ -108,7 +108,7 @@ defineProps<{}>();
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 768px) {
   .about {
     padding: 0px;
   }

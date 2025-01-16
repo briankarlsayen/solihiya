@@ -51,7 +51,7 @@ defineProps<{}>();
   flex-basis: 66%;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 768px) {
   .container {
     flex-direction: column;
     padding: 1rem;

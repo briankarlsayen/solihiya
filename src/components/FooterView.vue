@@ -51,7 +51,7 @@ const handleSocialLink = (str: string) => {
   fill: rgb(164, 164, 164);
 }
 
-@media (max-width: 550px) {
+@media (max-width: 768px) {
   .container {
     padding-right: 1rem;
     padding-left: 1rem;
